@@ -10,3 +10,21 @@ Tasks:
 * analyze distribution of categorical varabiles
 * create charts, plots etc. if needed
 * export key statistics to excel file for documentation
+
+# 2.Investigate Factors Influencing Attrition
+In this section we need to dive deeper in to the data. To get more intuition on what might influent employee's attrition we need to answer some questions. This time I will mainly use **SQL** (PostgreSQL).
+###  Demographics
+* Do younger employees leave more often than older ones?
+* Are men o woman leaving more?
+* Does marital status affect attrition?
+### Job-related Factors
+* Do employees with lower salaries leave more often?
+* Does job satisfaction impact attrition?
+* Does distance from home matter?
+* Does work-life balance play a role?
+### Company-Related Factors
+* Do employees with fewer years in company leave more often?
+* Does something (some of the other features) changes significantly through years employee is working in this company? 
+* Are certain departaments experiencing more attrition?
+* Does frequent job role change impact attrition?
+  ...
