@@ -7,7 +7,7 @@ Tasks:
 * Load and prepare data for EDA in **jupyter notebook**
 * Display basic statistics
 * check for missing values
-* analyze distribution of categorical varabiles
+* analyze distribution of categorical variables
 * create charts, plots etc. if needed
 * export key statistics to excel file for documentation
 
