@@ -18,16 +18,32 @@ Tasks:
 In this section we need to dive deeper in to the data. To get more intuition on what might influent employee's attrition we need to answer some questions. This time I will mainly use **SQL** (PostgreSQL).
 ###  Demographics
 * Do younger employees leave more often than older ones?
+  **Yes** most employees leaving are in the 25-29 and 30-34 age group.
 * Are men o woman leaving more?
+  There are about 240 records with employees that has decided to leave the company. **150 of them are men**. So **yes**.
 * Does marital status affect attrition?
+  It might, **not significantly affect attrition**. Of all 240 leaving empleeys 120 are singles. Maybe they have bigger tendency for risk.
+After answering this queries we can see some presumed patterns in the data. A significant number of people deciding to leave the company are young single male. This might mean that they are more opened for the new opportunities.  
 ### Job-related Factors
 * Do employees with lower salaries leave more often?
+  Based on the median (since for this column it is a better metric than mean) divided in to 2 groups. 160 of employees living the company are earning leff then the median.
+  **Yes**
 * Does job satisfaction impact attrition?
+  **Yes** it does.(scale 1-4, where 1 is low and 4 is very high) Second biggest group that has decided to leave the company are people with job satisfaction at 1 lvl. What is actually more interesting is the fact that group with biggest attrition is 3-hihg satisfaction. I have decided to dive deeper into this problem. What I have found is even more interesting. Employees that has left the company were only scored as 4 or 3 in performance rating feature (outstanding & excellent performence). Does this mean that they are not beeing enough appriciated and rewarded?
+  After diving deeper into the topic here is what I have found:    
+    a. Their average salary hike is a bit smaller then companies average.  
+    b. Just half of them do have stock options.  
+    c. Average age is 33 - which fits to the "risk group" mentioned in the demographic search.  
 * Does distance from home matter?
+  It seems like **it does** (not significantly). Although difference between attrition rate (attrition_rate=employees who left in group/total employees in group) for each group is not big there is a tendency- the further the office the bigger chance of leaving.
 * Does work-life balance play a role?
+  The biggest attrition rate is the group of people with poor lief balance. In the rest of the groups the attrition rate was simmilar. Maybe the solution is to help employees with poor work life balance to manage their time better to keep them in company?
+After reviewing this topic we might need to concider better ways of appreciation the employees, especially in some groups. 
 ### Company-Related Factors
-* Do employees with fewer years in company leave more often?
-* Does something (some of the other features) changes significantly through years employee is working in this company? 
+* Do employees with fewer years at company leave more often?
+  Yes they do. The longer the employee work in the company the smallee chances of him leaving are.
+* Does something (some of the other features) changes significantly through years employee is working in this company?
+  Thing that changes the most is average monthly income. Some of the other features that has changed not significantly are: performence and involvement wchich might be natural that more experienced employees are seen as more better and more involvement. 
 * Are certain departaments experiencing more attrition?
 * Does frequent job role change impact attrition?
   ...
