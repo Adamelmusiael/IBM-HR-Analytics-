@@ -48,3 +48,6 @@ After reviewing this topic we might need to concider better ways of appreciation
   Becouse of the EDA we do know that most of employees in this dataset work in Research & Developement department. Thus we need to use attrition rate in order to evaluate which department is experiencing more attrition. Biggest attrition by attrition rate was expeienced in the **Sales and Human Resources** departments (about **20% for each** of them). While Research & Developement had attrition rate equal to 13%. If it comes to the numbers we need to notice that in **R&D** the number of employees that left the company was **133**, which is more then the half of whloe companies attrition.
 * Does frequent job role change impact attrition?  
 After first query have found an interesting pattern employees how worked: 0,2,3,4 companies - their **attrition** rate is about **11%**, 5+ companies - **20-25% attrition** this employees might be people that are just seeking better opportunities so company should concider investing in their growth and 1 compnay employees - 18% attrition, this employees might be early in their careers and they expectations has just met the reality. 
+
+# 2. Data Visualization and Insights
+Now our objective is to visualize key insights and trends in the data. I need to 
