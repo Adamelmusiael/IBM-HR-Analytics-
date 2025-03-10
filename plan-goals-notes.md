@@ -26,7 +26,7 @@ In this section we need to dive deeper in to the data. To get more intuition on 
 After answering this queries we can see some presumed patterns in the data. A significant number of people deciding to leave the company are young single male. This might mean that they are more opened for the new opportunities.  
 ### Job-related Factors  ✅
 * Do employees with lower salaries leave more often?  
-  Based on the median (since for this column it is a better metric than mean) divided in to 2 groups. 160 of employees living the company are earning leff then the median.
+  Based on the median (since for this column it is a better metric than mean) divided in to 2 groups. 160 of employees living the company are earning less then the median.
   **Yes**
 * Does job satisfaction impact attrition?  
   **Yes** it does.(scale 1-4, where 1 is low and 4 is very high) Second biggest group that has decided to leave the company are people with job satisfaction at 1 lvl. What is actually more interesting is the fact that group with biggest attrition is 3-high satisfaction. I have decided to dive deeper into this problem. What I have found is even more interesting. Employees that has left the company were only scored as 4 or 3 in performance rating feature (outstanding & excellent performence). Does this mean that they are not beeing enough appriciated and rewarded?
@@ -47,7 +47,16 @@ After reviewing this topic we might need to concider better ways of appreciation
 * Are certain departaments experiencing more attrition?  
   Becouse of the EDA we do know that most of employees in this dataset work in Research & Developement department. Thus we need to use attrition rate in order to evaluate which department is experiencing more attrition. Biggest attrition by attrition rate was expeienced in the **Sales and Human Resources** departments (about **20% for each** of them). While Research & Developement had attrition rate equal to 13%. If it comes to the numbers we need to notice that in **R&D** the number of employees that left the company was **133**, which is more then the half of whloe companies attrition.
 * Does frequent job role change impact attrition?  
-After first query have found an interesting pattern employees how worked: 0,2,3,4 companies - their **attrition** rate is about **11%**, 5+ companies - **20-25% attrition** this employees might be people that are just seeking better opportunities so company should concider investing in their growth and 1 compnay employees - 18% attrition, this employees might be early in their careers and they expectations has just met the reality. 
-
+After first query have found an interesting pattern employees how worked: 0,2,3,4 companies - their **attrition** rate is about **11%**, 5+ companies - **20-25% attrition** this employees might be people that are just seeking better opportunities so company should concider investing in their growth and 1 compnay employees - 18% attrition, this employees might be early in their careers and they expectations has just met the reality.
+### Other
+* Were employees on same job level who has left worse paied then those who has stayed?  
+  Some job levels like 1,3,4 employees who has left were paid less. ** Yes, some of them**
+* Were emplooyees on same performance rating, who has left paid worse?  
+  **Yes**, employees with same peferformance rating and similar average yeasr in comapny were significantly paid worse on average.
+* What are the biggest differences between those who stayed and those who has left?
+  There are some differences. First of all employees who has left seem to have smaller job satiscation, they were earning less with slightly smaller salaty hike,  had smaller job level and wer not as much satisfied with enviroment as those who has stayed.
 # 2. Data Visualization and Insights
-Now our objective is to visualize key insights and trends in the data. I need to 
+Now our objective is to visualize key insights and trends in the data. 
+### Key things to include on dashboard.
+### Higlight those things while story telling/explaining dashboard:
+e.g. risk groups, potential solutions etc.
