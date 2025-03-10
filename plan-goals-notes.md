@@ -32,8 +32,12 @@ After answering this queries we can see some presumed patterns in the data. A si
   **Yes** it does.(scale 1-4, where 1 is low and 4 is very high) Second biggest group that has decided to leave the company are people with job satisfaction at 1 lvl. What is actually more interesting is the fact that group with biggest attrition is 3-high satisfaction. I have decided to dive deeper into this problem. What I have found is even more interesting. Employees that has left the company were only scored as 4 or 3 in performance rating feature (outstanding & excellent performence). Does this mean that they are not beeing enough appriciated and rewarded?
   After diving deeper into the topic here is what I have found:      
     a. Their average salary hike is a bit smaller then companies average.  
-    b. Just half of them do have stock options.  
-    c. Average age is 33 - which fits to the "risk group" mentioned in the demographic search.  
+    b. Just half of them do have stock options.    
+    c. Average age is 33 - which fits to the "risk group" mentioned in the demographic search.
+* Were employees on same job level who has left worse paied then those who has stayed?  
+  Some job levels like 1,3,4 employees who has left were paid less. ** Yes, some of them**
+* Were employees on same performance rating, who has left paid worse?  
+  **Yes**, employees with same peferformance rating and similar average yeasr in comapny were significantly paid worse on average.
 * Does distance from home matter?  
   It seems like **it does** (not significantly). Although difference between attrition rate (attrition_rate=employees who left in group/total employees in group) for each group is not big there is a tendency- the further the office the bigger chance of leaving.
 * Does work-life balance play a role?  
@@ -43,20 +47,18 @@ After reviewing this topic we might need to concider better ways of appreciation
 * Do employees with fewer years at company leave more often?  
   Yes they do. The longer the employee work in the company the smallee chances of him leaving are.
 * Does something (some of the other features) changes significantly through years employee is working in this company?  
-  Thing that changes the most is average monthly income. Some of the other features that has changed not significantly are: performence and involvement wchich might be natural that more experienced employees are seen as more better and more involvement. 
+  Thing that changes the most is average monthly income. Some of the other features that has changed not significantly are: performence and involvement wchich might be natural that more experienced employees are seen as more better and more involvement.
+* What are the biggest differences between those who stayed and those who has left?
+  There are some differences. First of all employees who has left seem to have smaller job satiscation, they were earning less with slightly smaller salaty hike,  had smaller job level and wer not as much satisfied with enviroment as those who has stayed. 
 * Are certain departaments experiencing more attrition?  
   Becouse of the EDA we do know that most of employees in this dataset work in Research & Developement department. Thus we need to use attrition rate in order to evaluate which department is experiencing more attrition. Biggest attrition by attrition rate was expeienced in the **Sales and Human Resources** departments (about **20% for each** of them). While Research & Developement had attrition rate equal to 13%. If it comes to the numbers we need to notice that in **R&D** the number of employees that left the company was **133**, which is more then the half of whloe companies attrition.
 * Does frequent job role change impact attrition?  
 After first query have found an interesting pattern employees how worked: 0,2,3,4 companies - their **attrition** rate is about **11%**, 5+ companies - **20-25% attrition** this employees might be people that are just seeking better opportunities so company should concider investing in their growth and 1 compnay employees - 18% attrition, this employees might be early in their careers and they expectations has just met the reality.
-### Other
-* Were employees on same job level who has left worse paied then those who has stayed?  
-  Some job levels like 1,3,4 employees who has left were paid less. ** Yes, some of them**
-* Were emplooyees on same performance rating, who has left paid worse?  
-  **Yes**, employees with same peferformance rating and similar average yeasr in comapny were significantly paid worse on average.
-* What are the biggest differences between those who stayed and those who has left?
-  There are some differences. First of all employees who has left seem to have smaller job satiscation, they were earning less with slightly smaller salaty hike,  had smaller job level and wer not as much satisfied with enviroment as those who has stayed.
+
 # 2. Data Visualization and Insights
 Now our objective is to visualize key insights and trends in the data. 
-### Key things to include on dashboard.
-### Higlight those things while story telling/explaining dashboard:
+* Get the table, views and transform if needed (PowerBI) ✅
+* Structure/plan of the dashboard.  
+  I will create 4 pages in this dashboard for clean and meaningfull data visualization. First one will be Overview, here I will include key KPI's, trends in attrition and most important informations for better data understanding. Next three pages will be divided by: Demographic (attrition by age, gender maritial status), but I will concider including this in first page, Job related factors (attrition rat) 
+* Higlight those things while story telling/explaining dashboard:
 e.g. risk groups, potential solutions etc.
