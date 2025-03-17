@@ -58,7 +58,27 @@ After first query have found an interesting pattern employees how worked: 0,2,3,
 # 2. Data Visualization and Insights
 Now our objective is to visualize key insights and trends in the data. 
 * Get the table, views and transform if needed (PowerBI) ✅
-* Structure/plan of the dashboard.  
-  I will create 4 pages in this dashboard for clean and meaningfull data visualization. First one will be Overview, here I will include key KPI's, trends in attrition and most important informations for better data understanding. Next three pages will be divided by: Demographic (attrition by age, gender maritial status), but I will concider including this in first page, Job related factors (attrition rat) 
-* Higlight those things while story telling/explaining dashboard:
-e.g. risk groups, potential solutions etc.
+* Structure/plan of the dashboard.   MODIFY
+  I will create 3 pages in this dashboard for clean and meaningfull data visualization. First one will be Overview, here I will include key KPI's, trends in attrition and most important informations for better data understanding. Next three pages will be divided by: Demographic (attrition by age, gender maritial status), but I will concider including this in first page, Job related factors (attrition rat) 
+* Notes/findings
+Looking on pie plot we can see that the biggest problem with attrition is in the Research & Developement department about 56%, Sales 39% and HR 5%. This tells us that the biggest number of employees leving is in Research & Development. However we need to mention one important difference in those departments, size. Research & Developement is much bigger than other departments. So let's see on the attrition in order to evaluate this departments equally. **Attrition Rate by Department* column chart tells us that the problem is simmilar in all of these departments. What is actually interesting by procentage the smallest attirion is in the Research & Developement. This might mean that the simmilar problem may be in the company. So yes most employees who has left the company were from the R&D but attrition is simmilar in each department. 
+  
+**Seniority in the Company and Attrition Rate** There is overall tendention taht employees with bigger seniority has way smaller attrition rate. Employees with 0-1 seniority have 30% attrition and employees with more than 1 year at company less then 20% AR. This might suggest that if we encourage ew employees to stay longer with us there will be huge chance of their bigger seniority in future. 
+On the plot **"Impact of Past Work Experience on Attrition and Tenure"** we can see some interesting patterns.
+We have 2 contexts here attiriton rate and Average Years at Company
+First of all Attirtion rate is much bigger for employees for employees that has worked for 5 or more companies. Also it is quite big for ppl that has worked for 1 company this might mean that they might still looking for their place. However their avg years at comapny is one of the highest. This might tell us that there are 2 main groups of ppl. 1 Those who like to settle and build their position in one company. And those that are seeking potential upgrades and better opportunities. Smaller attrition is beeing noticed for employees that has worked for 0 and 2-4 companies previously but also they stay in comapny on average 5 years. The overall tendention: The more companies employee worked for the biggest attrition rate is. Employees with less then 5 previous companies are having the smallest attirion rate. This 3 features might be even more correlated it would be greate to analyze them even further but there are not many emploees with more then 5 companies worked for. Need to get more data.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
