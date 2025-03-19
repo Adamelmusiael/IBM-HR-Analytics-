@@ -67,8 +67,45 @@ Looking on pie plot we can see that the biggest problem with attrition is in the
 On the plot **"Impact of Past Work Experience on Attrition and Tenure"** we can see some interesting patterns.
 We have 2 contexts here attiriton rate and Average Years at Company
 First of all Attirtion rate is much bigger for employees for employees that has worked for 5 or more companies. Also it is quite big for ppl that has worked for 1 company this might mean that they might still looking for their place. However their avg years at comapny is one of the highest. This might tell us that there are 2 main groups of ppl. 1 Those who like to settle and build their position in one company. And those that are seeking potential upgrades and better opportunities. Smaller attrition is beeing noticed for employees that has worked for 0 and 2-4 companies previously but also they stay in comapny on average 5 years. The overall tendention: The more companies employee worked for the biggest attrition rate is. Employees with less then 5 previous companies are having the smallest attirion rate. This 3 features might be even more correlated it would be greate to analyze them even further but there are not many emploees with more then 5 companies worked for. Need to get more data.
- 
 
+ Not everything got written down here. Some of key information were written down in my notebook. All of the most important informations will be included in the main note.
+
+ # Key information to mention on the presentation:
+There are 3 pages. Each of them plays different role in this presentation. First page is ment to present basic information so the public can follow up. Next to pages are ment to present most important factors that may influent attrition.
+**OVERVIEW**
+1.Analysis was made on the sample of almost 1500 employees. Almost 240 of them decided to leave the company. 
+2. Key KPI's:   
+- Average Seniority - Average number of years employees worked in the company,
+- Attrition Rate (%) - This rate helps us to investigate the problem with attrition in different situations fairly. (Attrition Rate(%) = Resignees/Total Employees *100)
+- Salary Hike,
+- Low Paid Resignees - Shows the number of people that has left the company and were paid less then the median.
+3. Basic information:
+- Often employees that are living the company are Males and and are in the 25-36 age group. This might suggest us that for the job roles that require smaller employee attrition we should concider choosing females or people that are older then 36 yo.
+- Job Satisfaction is important factor since many employees that has left the company were not satisfied with their job. However, there is a wird statistics that shows us that most employees who has left by job satisfaction are employees with job satisfaction 3. We will investigate this in moment.  
+**Job Related Factors**
+There are some factors that seem to be important in context of attrition. First of all, huge amount of resignees were low-paid.
+Wird statistic:
+As mentioned earlier the biggest attrition is beeing noticed for people with job satisfaction 3. It seems not intuitive but there might be some reasons that will help us to understand this problem.
+Firstly, let's notice that all of the people with job satisfaction 3 were rated as well performing (3 and 4 are the highest possible ratings). This tells us that they were both satisfied and were well performing. This drives us to the obvious question. Were they rewarded and appreciated enough? Here are some statistics that will help as find the answer (All factors are calculated for the resignees with job satisfaction 3 ):
+- about 85% of employees were paid less,
+- the average job level 1,59 (5 is max),
+- average salary hike was smaller then the companies average,
+- None of them were allowed to have companies stocks.
+If we combine all of the infomrmations above we can clearly see that this employees were most likely not appreciated enough. It would be greate to concider some of the possible ways of rewarding employees especially those that are performing well.
+Importance of well suited sallary:
+We already know that satisfied employees require adequate sallary. Monthly income is highly correlated with the attrition. We can see this on the following plot (top right corner). It shows us that a lot of employees who has left the company were paid less then their colleagues on each of the job levels there is a simmilar tendention.
+Bottom-right line chart shows that employees who work further from home are more likely to leave company. If possible it might be important to offer them remore of hybrid work.  
+**Company Related Factors**
+First let's concider which department is dealing with the biggest attrition. Definitely the biggest number of employees that are leaving our company is in the Research and Development and in Sales. But we need to keep in mind that this departments are way bigger then HR, thus the number of employees leaving will be bigger. In oreder to evaluate this problem equaly look at the bar chart in the bottom left corner. This shows us that the attrition problem is almost same in each of the departments. Proportionally to their size... Conclusion? Biggest number resignees- R&D and Sales, but attrition rate is simmilar in every department listed.  
+Next important factor is seniority- top right bar chart. The bigger the seniority, the smaller are chances that employee will leave the company.
+Another thing worth mentioning is the number of companiees emlpoyee has worked for. We can see that for following numbers 0,2,3,4 attrition is small. It starts to grow when employee has worked for many companies. This may mean that employee is often switching companies in order to find better opportunities.
+Also the biggest chance of catching the workers to stay longer is at the beggining of their career. If we play this well we can get loyal and well thought/trained employees. It might be important to charm them at the beggining of their career. Potential questions to this chart:
+Why for employees with 1 previous company worked for attrition rate is way bigger than for employees with 0,2,3,4 companies?
+Potential answer: After working for 1 company and now working for us they have found out that it is not a problem in a company but in the fact that this job might not be their thing.
+Why attrition rate is smaller for the employees with 8 companies worked for?
+This possibly is the moment when people are bored with switching the enviroment often and they might look for more stable life.
+Summary of this pages: 
+ 
 
 
 
