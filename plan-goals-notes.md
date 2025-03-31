@@ -64,14 +64,22 @@ Now, our objective is to visualize key insights and trends in the data. Since mo
 * Employees with 0-1 years of tenure have >30% attrition, while those with more seniority have <20% attrition.
 * Employees who previously worked for 5+ companies have the highest attrition rate, likely job-hopping for better opportunities.
 
+# 4. Feature Importance Using ML
+In this section, I will use machine learning to identify the most important features. This process involves data encoding (as some models require numeric input), model training, extracting feature importance from models, and utilizing SHAP to enhance interpretability. Finally, I will visualize the results and combine all methods into a single plot.
+
+To fairly compare the importance scores from different methods, I applied L1 normalization. After normalization, I calculated the average importance for each feature.
+
+As a result, I identified the 10 most important features. 
 
 
+![image](https://github.com/user-attachments/assets/8961c4ac-db14-40a6-91b6-8e7dba91cd89)
 
 
-
-
-
-
+Thanks for this method I have found out about some other important features that I did not concider before. Here are some of these features:  
+1. OverTime - this feature tells us if employee dud work more then planned. As it turned out this method ranked it as the most important one.
+2. DailyRate - in other words daily salary of the employee. Also highly ranked one.
+3. HourlyRate - just like the previous one.
+Analyzing top 10 featuers produced by this method we can see that a lot of them contain information about the money the employee was/is earning. This proves my previous point.
 
 
 
