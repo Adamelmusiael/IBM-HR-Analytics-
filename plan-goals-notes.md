@@ -76,7 +76,7 @@ As a result, I identified the 10 most important features.
 
 
 Thanks for this method I have found out about some other important features that I did not concider before. Here are some of these features:  
-1. OverTime - this feature tells us if employee dud work more then planned. As it turned out this method ranked it as the most important one.
+1. OverTime - this feature tells us if employee did work more then planned. As it turned out this method ranked it as the most important one.
 2. DailyRate - in other words daily salary of the employee. Also highly ranked one.
 3. HourlyRate - just like the previous one.
 Analyzing top 10 featuers produced by this method we can see that a lot of them contain information about the money the employee was/is earning. This proves my previous point.
