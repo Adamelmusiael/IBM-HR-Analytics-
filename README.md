@@ -96,5 +96,5 @@ To run this project locally:
 
 ## Acknowledgments
 This project was inspired by IBM HR Analytics dataset, showcasing real world problems that can be solved using data analysis and data science techniques.  
-📌 **Contact:** For any questions or suggestions, feel free to reach out!
+📌 **Contact:** For any questions or suggestions, feel free to reach out!  
 🚀 _Hope you find this analysis insightful!_
